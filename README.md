@@ -17,7 +17,7 @@ This extension adds a rounded border of the same colour as the user's name to th
 3. To permanently uninstall, click `Delete Data` and then delete the `/ext/cabot/borderavatar` folder.
 
 ## Style customisation
-1. To customise the default border colour according to the style, make a copy of the `cabot/borderavatar/styles/custom_style` directory and rename it with the folder name of the style concerned.
+1. To customise the default border colour according to the style, make a copy of the `cabot/borderavatar/styles/custom_style_dir_name` directory and rename it with the folder name of the style concerned.
 2. Open the file `cabot/borderavatar/styles/your_dir/template/ba_custom_colour.html` and change the colour in this line: `--ba-group-colour: #105289;`.
 3. You can have as many directories as you have styles if you want to assign a default border colour to each of them.
 

@@ -1,0 +1,3 @@
+{% if postrow.POSTER_AVATAR %}
+<div class="ba-border-avatar{% if not postrow.POST_AUTHOR_COLOUR %} ba-custom-colour{% endif %}"{% if postrow.POST_AUTHOR_COLOUR %} style="--ba-group-colour: {{ postrow.POST_AUTHOR_COLOUR }};"{% endif %}>
+{% endif %}

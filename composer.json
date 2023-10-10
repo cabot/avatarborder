@@ -1,0 +1,24 @@
+{
+    "name": "cabot/avatarborder",
+    "type": "phpbb-extension",
+    "description": "Adds a border to the avatar in the same colour as the username.",
+    "homepage": "https://www.phpbb.com/community/viewtopic.php?t=2646673",
+    "version": "1.0.0",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "cabot",
+            "homepage": "https://forum.cabotweb.fr/",
+            "role": "SushiMaker"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.7"
+    },
+    "extra": {
+        "display-name": "Avatar Border",
+        "soft-require": {
+            "phpbb/phpbb": "3.2.0"
+        }
+    }
+}
